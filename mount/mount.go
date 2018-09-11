@@ -10,8 +10,8 @@ import (
 	"strings"
 	"sync"
 
-	ds "github.com/ipfs/go-datastore"
-	"github.com/ipfs/go-datastore/query"
+	ds "github.com/dms3-fs/go-datastore"
+	"github.com/dms3-fs/go-datastore/query"
 )
 
 var (
@@ -120,7 +120,7 @@ func (d *Datastore) Query(q query.Query) (query.Results, error) {
 		q.Limit > 0 ||
 		q.Offset > 0 {
 		// TODO this is still overly simplistic, but the only callers are
-		// `ipfs refs local` and ipfs-ds-convert.
+		// `dms3fs refs local` and dms3fs-ds-convert.
 		return nil, errors.New("mount only supports listing all prefixed keys in random order")
 	}
 	prefix := ds.NewKey(q.Prefix)

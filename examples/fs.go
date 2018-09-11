@@ -25,8 +25,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	ds "github.com/ipfs/go-datastore"
-	query "github.com/ipfs/go-datastore/query"
+	ds "github.com/dms3-fs/go-datastore"
+	query "github.com/dms3-fs/go-datastore/query"
 )
 
 var ObjectKeySuffix = ".dsobject"

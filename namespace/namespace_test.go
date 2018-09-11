@@ -7,10 +7,10 @@ import (
 
 	. "github.com/go-check/check"
 
-	ds "github.com/ipfs/go-datastore"
-	ns "github.com/ipfs/go-datastore/namespace"
-	dsq "github.com/ipfs/go-datastore/query"
-	dstest "github.com/ipfs/go-datastore/test"
+	ds "github.com/dms3-fs/go-datastore"
+	ns "github.com/dms3-fs/go-datastore/namespace"
+	dsq "github.com/dms3-fs/go-datastore/query"
+	dstest "github.com/dms3-fs/go-datastore/test"
 )
 
 // Hook up gocheck into the "go test" runner.

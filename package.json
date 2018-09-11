@@ -4,7 +4,7 @@
     "url": "https://github.com/jbenet/go-datastore"
   },
   "gx": {
-    "dvcsimport": "github.com/ipfs/go-datastore"
+    "dvcsimport": "github.com/dms3-fs/go-datastore"
   },
   "gxDependencies": [
     {
@@ -39,4 +39,3 @@
   "releaseCmd": "git commit -a -m \"gx publish $VERSION\"",
   "version": "3.1.0"
 }
-

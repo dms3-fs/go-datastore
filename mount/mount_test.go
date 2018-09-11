@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/ipfs/go-datastore"
-	mount "github.com/ipfs/go-datastore/mount"
-	"github.com/ipfs/go-datastore/query"
-	dstest "github.com/ipfs/go-datastore/test"
+	"github.com/dms3-fs/go-datastore"
+	mount "github.com/dms3-fs/go-datastore/mount"
+	"github.com/dms3-fs/go-datastore/query"
+	dstest "github.com/dms3-fs/go-datastore/test"
 )
 
 func TestPutBadNothing(t *testing.T) {

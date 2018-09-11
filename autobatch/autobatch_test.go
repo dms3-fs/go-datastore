@@ -5,8 +5,8 @@ import (
 	"fmt"
 	"testing"
 
-	ds "github.com/ipfs/go-datastore"
-	dstest "github.com/ipfs/go-datastore/test"
+	ds "github.com/dms3-fs/go-datastore"
+	dstest "github.com/dms3-fs/go-datastore/test"
 )
 
 func TestAutobatch(t *testing.T) {

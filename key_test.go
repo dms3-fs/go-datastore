@@ -8,7 +8,7 @@ import (
 	"testing"
 
 	. "github.com/go-check/check"
-	. "github.com/ipfs/go-datastore"
+	. "github.com/dms3-fs/go-datastore"
 )
 
 // Hook up gocheck into the "go test" runner.
